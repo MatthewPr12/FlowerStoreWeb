@@ -7,8 +7,6 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.annotation.JsonDeserialize;
 import com.fasterxml.jackson.databind.node.ObjectNode;
 import ua.edu.ucu.demo.flowers.Item;
-import ua.edu.ucu.demo.payment.CreditCardPaymentStrategy;
-import ua.edu.ucu.demo.payment.PayPalPaymentStrategy;
 
 import java.io.IOException;
 import java.util.List;

@@ -1,6 +1,5 @@
 package ua.edu.ucu.demo.flowers;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 

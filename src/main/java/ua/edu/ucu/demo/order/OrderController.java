@@ -1,12 +1,10 @@
 package ua.edu.ucu.demo.order;
 
-import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 import ua.edu.ucu.demo.delivery.Delivery;
 import ua.edu.ucu.demo.flowers.Flower;
 import ua.edu.ucu.demo.flowers.FlowerColor;
 import ua.edu.ucu.demo.flowers.Item;
-import ua.edu.ucu.demo.payment.PayPalPaymentStrategy;
 import ua.edu.ucu.demo.payment.Payment;
 
 import java.util.Arrays;
