@@ -1,4 +1,4 @@
-package flower.store;
+package ua.edu.ucu.demo.flowers;
 
 
 public class FlowerPack {
