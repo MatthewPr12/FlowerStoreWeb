@@ -2,6 +2,7 @@ package ua.edu.ucu.demo.order;
 
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+import ua.edu.ucu.demo.delivery.Delivery;
 import ua.edu.ucu.demo.flowers.Flower;
 import ua.edu.ucu.demo.flowers.FlowerColor;
 import ua.edu.ucu.demo.flowers.Item;
@@ -29,5 +30,10 @@ public class OrderController {
     @RequestMapping(value = "/api/v1/order/pay", method = RequestMethod.POST)
     public void choosePayment(@RequestBody Payment payment){
         order.setPaymentStrategy(payment);
+    }
+
+    @RequestMapping(value = "/api/v1/order/deliver", method = RequestMethod.POST)
+    public void chooseDelivery(@RequestBody Delivery delivery){
+        order.setDeliveryStrategy(delivery);
     }
 }
